@@ -1,0 +1,197 @@
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+     }
+         header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+        }
+ header a {
+            background-color: #333;
+            color: white;
+            text-align: left;
+        } 
+header nav {
+            background-color: #333;
+            color: white;
+            text-align: right;
+        } 
+  .home-content {
+            height: 100vh;
+            display: flex;
+           flex-direction:column;
+            justify-content: flex-start;
+            align-items: left;
+            text-align: center;
+            background-image: url('https://cdn.vectorstock.com/i/preview-1x/31/24/digital-money-inr-indian-rupee-coin-background-vector-44693124.jpg');
+            background-size:cover;
+            background-position: center;
+            color: white;
+            font-size:300%;
+           padding-top:20px 20px;
+        }
+ h1 {
+    margin-top:70px;
+    text-align:left;
+}
+        .quotation {
+            font-style: italic;
+        }
+        .pay-now-button {
+            background-color:black;
+            background-size: cover;
+            padding: 10px 20px;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 20px;
+            margin-top: 20px;
+        }
+        .login-container {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            background-image: url('https://www.shutterstock.com/image-illustration/indian-rupee-symbol-on-financial-260nw-2343446641.jpg');
+            background-size: cover;
+            background-position: center;
+            padding-top: 50px;
+        }
+        .login-form {
+            max-width: 400px;
+            background-color: rgba(255, 255, 255, 0.4); 
+            padding: 20px;
+            border: 2px solid #3498db;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.9);
+        }
+        .login-form h2 {
+            margin-bottom: 20px;
+        }
+        .login-form input[type="text"],
+        .login-form input[type="password"] {
+            width: calc(100% - 20px);
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .login-form input[type="submit"],
+        .login-form input[type="reset"] {
+            width: 50%;
+            padding: 10px;
+            border: none;
+            border-radius: 15px;
+            cursor: pointer;
+            background-color:blue;
+            color: white;
+            font-size: 16px;
+        }
+.container{
+height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            background-image: url('https://img.freepik.com/premium-photo/funny-ultra-soft-piggy-bank-with-money-isolated-pink-background-pastel-colors-colorful-poster-banner-cartoon-minimal-air-style-3d-illustration_76964-5449.jpg');
+            background-size: cover;
+            background-position: center;
+           
+}
+
+  .form {
+            max-width: 400px;
+            background-color: rgba(255, 255, 255, 0.4); 
+            padding: 10px;
+            border: 2px solid #3498db;
+            border-radius: 10px;
+            box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.9);
+        }
+.form h1 {
+            margin-bottom: 10px;
+}
+        input[type="number"],input[type="text"], input[type="number"], input[type="password"], input[type="number"] {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            box-sizing: border-box;
+        }
+        input[type="submit"] {
+            width: 90%;
+            background-color: #E716F6;
+            color: white;
+            padding: 20px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: green;
+        }
+.account-container{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            background-image: url('https://w0.peakpx.com/wallpaper/890/989/HD-wallpaper-indian-rupee-symbol-currency-sign-indian-rupee-white-3d-indian-rupee-sign-indian-rupee-currency-white-background.jpg');
+            background-size: cover;
+           font-size: 20px;
+            background-position: center;
+}
+        .ccontainer {
+            width: 400px;
+           font-size: 24px;
+            padding: 10px;
+            background-color: #fff;
+            border-radius: 20px;
+            box-shadow: 0 0 10x rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .button {
+            width: 80%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            margin: 10px;
+            border: none;
+            border-radius: 10px;
+            background-color: #E716F6;
+            color: #fff;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            text-align: center;
+             text-decoration: none;
+        }
+
+        .button:hover {
+            background-color: #E716F6;
+        }
+
+        .button i {
+            font-size: 24px;
+margin-right: 10px;
+            margin-bottom: 10px;
+      }
+p {
+    color: #fff;
+    margin-bottom: 20px;
+}
+.success {
+    background-color: #4CAF50;
+}
+
+.failure {
+    background-color: #f44336;
+}
